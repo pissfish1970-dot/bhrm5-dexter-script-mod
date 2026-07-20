@@ -20,11 +20,11 @@ local function loadRemoteScript(url)
 end
 
 local function loadPvp()
-    loadRemoteScript("https://raw.githubusercontent.com/pissfish1970-dot/bhrm5-pve/main.lua")
+    loadRemoteScript("https://raw.githubusercontent.com/pissfish1970-dot/main/bhrm5-pve/main.lua")
 end
 
 local function loadPve()
-    loadRemoteScript("https://raw.githubusercontent.com/pissfish1970-dot/bhrm5-pve/main.lua")
+    loadRemoteScript("https://raw.githubusercontent.com/pissfish1970-dot/main/bhrm5-pve/main.lua")
 end
 
 if PVP_PLACE_IDS[placeId] then
