@@ -20,11 +20,11 @@ local function loadRemoteScript(url)
 end
 
 local function loadPvp()
-    loadRemoteScript("https://raw.githubusercontent.com/HiIxX0Dexter0XxIiH/BRM5-Script-Definitive-Edition/main/brm5-pvp/main.lua")
+    loadRemoteScript("https://raw.githubusercontent.com/pissfish1970-dot/bhrm5-dexter-script-mod/main/brm5-pve/main.lua")
 end
 
 local function loadPve()
-    loadRemoteScript("https://raw.githubusercontent.com/HiIxX0Dexter0XxIiH/BRM5-Script-Definitive-Edition/main/brm5-pve/main.lua")
+    loadRemoteScript("https://raw.githubusercontent.com/pissfish1970-dot/bhrm5-dexter-script-mod/main/brm5-pve/main.lua")
 end
 
 if PVP_PLACE_IDS[placeId] then
